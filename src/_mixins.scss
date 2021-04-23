@@ -3,8 +3,10 @@
 @mixin gridBox {
   width: $equ;
   height: auto;
-  background: rgba(200,200,200,.7);
-  border: 1px solid;
+  background: $pastelPurp;
+  border: 5px solid $pastelTan;
+  border-radius: 20px;
   box-sizing: border-box;
   float: left;
+  margin:15px;
 }
