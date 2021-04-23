@@ -9,9 +9,15 @@ main{
 header{
   text-align: center;
 }
-#projects > section{
-  @include gridBox;
+#container > .half {
+  @include halfBox;
   text-align: center;
+}.quarter{
+  @include quarterBox;
+}.third{
+  @include thirdBox;
+}.full{
+  @include fullBox;
 }
 img{
   max-width: 100%;
@@ -19,7 +25,7 @@ img{
   border-radius: 5px;
 }
 img:hover{
-  box-shadow: 0 0 4px 2px rgba(255,255,255, .5); 
+  box-shadow: 0 0 4px 2px rgba(255,255,255, .5);
 }
 h2{
   font-family: 'Zen Dots', cursive;
