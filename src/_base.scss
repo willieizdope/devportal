@@ -1,0 +1,11 @@
+body{
+  background-color: rgb(180,180,180);
+  max-width: 960px;
+}
+header{
+  text-align: center;
+}
+#projects > section{
+  @include gridBox;
+  text-align: center;
+}

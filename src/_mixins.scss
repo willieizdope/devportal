@@ -1,0 +1,10 @@
+// combined attributes that we can load in at once. think about...
+
+@mixin gridBox {
+  width: $equ;
+  height: auto;
+  background: rgba(200,200,200,.7);
+  border: 1px solid;
+  box-sizing: border-box;
+  float: left;
+}
